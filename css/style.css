@@ -776,6 +776,9 @@ footer{
   .menu_info{
     display: none;
   }
+  .menu img{
+    width: 20px;
+  }
   .turn .menu img{
     transform:rotate(180deg);
   }
