@@ -62,6 +62,37 @@ header{
   display: flex;
   margin-left: 40px;
 }
+.nav li{
+  position: relative;
+}
+.sub_menu{
+  position: absolute;
+  top: 55px;
+  left: -20px;
+  background-color: #0D4633;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.sub_menu li:not(:last-child){
+  margin-bottom: 8px;
+}
+.sub_menu li a{
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  padding: 12px 20px;
+  width: 100%;
+  display: block;
+  white-space: nowrap;
+  transition: all .3s;
+}
+.sub_menu li a:hover{
+  background-color: #063727;
+  transition: all .3s;
+}
+.sub_menu{
+  display: none;
+}
 .nav li a{
   margin-right: 30px;
 }
